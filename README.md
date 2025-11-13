@@ -16,3 +16,10 @@
   <p>This is my personal website hosted on GitHub Pages.</p>
 </body>
 </html>
+<h1>Travel Stories</h1>
+<p>Here are some of my travel experiences…</p>
+<section class="story">
+  <h2>Trip to XYZ (Date)</h2>
+  <img src="images/trip‑xyz.jpg" alt="Photo of XYZ">
+  <p>A short write‑up: What I did, what I learned, why it was memorable.</p>
+</section>
