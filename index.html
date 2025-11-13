@@ -17,6 +17,21 @@
       background-blend-mode: darken;
       background-color: rgba(0, 0, 0, 0.5);
     }
+
+    /* Under construction note */
+    .construction-note {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      color: red;
+      font-size: 13px;
+      font-weight: bold;
+      background-color: rgba(255,255,255,0.2);
+      padding: 3px 6px;
+      border-radius: 4px;
+      z-index: 1000;
+    }
+
     header {
       background-color: rgba(0, 0, 0, 0.7);
       padding: 20px;
@@ -28,9 +43,11 @@
       margin: 0;
       text-shadow: 2px 2px 4px #000;
     }
+
     main {
       padding: 20px;
     }
+
     p {
       color: #fff;
       font-size: 18px;
@@ -39,6 +56,7 @@
       margin: 20px auto;
       text-shadow: 1px 1px 3px #000;
     }
+
     footer {
       background-color: rgba(0, 0, 0, 0.7);
       padding: 10px;
@@ -49,6 +67,7 @@
       width: 100%;
       bottom: 0;
     }
+
     .button {
       display: inline-block;
       padding: 10px 20px;
@@ -62,6 +81,7 @@
       text-shadow: 1px 1px 2px #000;
       text-decoration: none;
     }
+
     .button:hover {
       background-color: #e89c00;
     }
@@ -72,16 +92,19 @@
       margin: 50px auto;
       text-align: left;
     }
+
     .story {
       background-color: rgba(0,0,0,0.5);
       padding: 20px;
       margin-bottom: 30px;
       border-radius: 10px;
     }
+
     .story h2 {
       color: #f8b400;
       margin-top: 0;
     }
+
     .story img {
       max-width: 100%;
       height: auto;
@@ -89,25 +112,31 @@
       margin: 15px 0;
       border-radius: 5px;
     }
+
     .story p {
       color: #fff;
       font-size: 16px;
       text-shadow: 1px 1px 2px #000;
     }
+
   </style>
 </head>
 <body>
+
+  <!-- Under construction note -->
+  <div class="construction-note">Website is under construction...</div>
+
   <header>
     <h1>Welcome Everyone</h1>
   </header>
+
   <main>
     <p>Welcome everyone to my page. I am a professional Geospatial Engineer and I have been working for a non-profit organization to preserve nature for future generations.</p>
     <p>With a passion for leveraging geospatial technology, I contribute to projects that focus on environmental conservation and sustainable development. My goal is to use advanced GIS techniques to support data-driven decision-making and create a positive impact on our planet.</p>
     <p>Feel free to explore my work and connect with me for any collaborative opportunities or inquiries. Together, we can make a difference!</p>
     <a href="#contact" class="button">Contact Me</a>
     <a href="#portfolio" class="button">My Portfolio</a>
-    <!-- Add this inside <body> at the very top -->
-    <div class="construction-note">Website is under construction...</div>
+
     <!-- Travel Stories Section -->
     <div class="stories">
       <h1 style="text-align:center; color:#f8b400;">Travel Stories</h1>
@@ -128,6 +157,7 @@
       <!-- Add more stories here -->
     </div>
   </main>
+
   <footer>
     &copy; 2024 Sanjeev Karki. All rights reserved.
   </footer>
